@@ -1,0 +1,26 @@
+table{
+    background-image:url(/links/FB_IMG_1528654471492.jpg);
+    border: 2px solid hotpink;
+    width: 600px;
+    border-collapse: collapse ;
+}
+th{
+    border: 2px solid seagreen;
+    padding: 28px;
+    color: tomato;
+    text-align: left;
+    background:forestgreen
+
+}
+td{
+    border: 1px solid teal;
+    padding: 28px;
+    color: seagreen;
+    
+   }
+   tr:nth-child(odd){
+       background:red;
+   }
+   tr:nth-child(even){
+       background:magenta
+   }   
